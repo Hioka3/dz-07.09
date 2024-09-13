@@ -1,0 +1,148 @@
+body{
+    width: 1440px; 
+    height: 6085px; 
+    background-repeat: no-repeat;
+    position: relative; 
+    background: white; 
+}
+header{
+    width: 1440px; 
+    height: 82px; 
+    position: relative;
+}
+a{
+    width: 220px;
+    height: 61px; 
+    color: black;
+    background-color: transparent; 
+    font-size: 32px; 
+    font-family: Jost; 
+    font-weight: 400; 
+    text-transform: capitalize; 
+    word-wrap: break-word;
+    margin-left: 100px;
+    border: none;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+.formbutton{
+    width: 1300px; 
+    height: 130px; 
+    left:450px;
+    top: 25px;
+    position: relative;
+   
+}
+.blocklogo{
+    width: 1900px; 
+    height: 700px; 
+    left: -8px; 
+    top: 90px; 
+    position: absolute; 
+    background: #667F7D
+}
+.blocklogofoto{
+    width: 1900px; 
+    height: 590px; 
+    left: -8px; 
+    top: 140px; 
+    position: absolute; 
+    border-top: 3px white solid; 
+    border-bottom: 3px white solid;
+}
+.blocklogotext{
+    left: 750px; 
+    top: 260px; 
+    position: absolute; 
+    color: white; 
+    font-size: 130px; 
+    font-family: Inknut Antiqua; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    text-shadow: 5px 5px 5px #445A58;
+}
+.blocksquare{
+    width: 450px; 
+    height: 450px; 
+    left: 950px; 
+    top: 110px; 
+    position: absolute; 
+    transform: rotate(45deg); 
+    transform-origin: 0 0; 
+    border: 6px white solid;
+}
+.ticker-inline {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .ticker-inline-bottom-trial {
+    margin-bottom: 4rem;
+  }
+  
+  .tickers {
+    top:750px;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    width: 1888px;
+    overflow: hidden;
+  }
+  
+  .ticker1 {
+    position: absolute;
+    top: 2px;
+    left: -110%;
+    animation: marquee1 1s linear infinite;
+  }
+  
+  .ticker {
+    display: flex;
+    animation: startLine 10s linear, marquee 10s linear 10s infinite;
+    width: 2630px;
+    margin: 2 auto;
+  }
+  
+  .ticker__head {
+    width: 430px;
+    text-align: center;
+    margin-left: 2px;
+  }
+  
+  @keyframes startLine {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .textinformation{
+    width: 488px; 
+    left: 300px; 
+    top: 1000px; 
+    position: absolute; 
+    color: black; 
+    font-size: 26px; 
+    font-family: Jost; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  .photoinformation{
+    width: 520px; 
+    height: 390px; 
+    left: 1000px; 
+    top: 1040px; 
+    position: absolute;
+    box-shadow: 0px 4px 4px #445A58;
+  }
