@@ -1,6 +1,6 @@
 body{
-    width: 1440px; 
-    height: 6085px; 
+     
+    height: 6400px; 
     background-repeat: no-repeat;
     position: relative; 
     background: white; 
@@ -146,3 +146,351 @@ a{
     position: absolute;
     box-shadow: 0px 4px 4px #445A58;
   }
+  .title1{
+    left: 101px; 
+    top: 1650px; 
+    position: absolute; 
+    color: #445A58; 
+    font-size: 96px; 
+    font-family: Jost; 
+    font-weight: 300; 
+    word-wrap: break-word;
+  }
+  .blockcatalog{
+    width: 1900px; 
+    height: 119px; 
+    left: -8px; 
+    top: 1850px; 
+    position: absolute;
+    background: #667F7D;
+    box-shadow: 0px 4px 4px #445A58;
+  }
+  .line{
+    width: 300px; 
+    height: 771px; 
+    left: 1592px; 
+    top: 1890px; 
+    position: absolute; 
+    background: #667F7D;
+  }
+  .blockcatalog2{
+    width: 1900px; 
+    height:60px; 
+    left: -8px; 
+    top: 2650px; 
+    position: absolute;
+    background: #667F7D;
+    box-shadow: 0px 4px 4px #445A58;
+  }
+  .image.first,.image.second,.image.third{
+    border:2px solid transparent;
+    margin-left: 70px;
+    margin-top: 1950px;
+    width: 400px;
+    box-shadow: 6px 4px 4px #a8adb9;
+    }
+    
+    .image.first {
+    opacity:1px;
+    display:block;
+    position:absolute;
+    z-index:100;
+    transition-duration:0.96s;
+    -webkit-transition-duration:0.96s;
+    -moz-transition-duration:0.96s;
+    -o-transition-duration:0.96s;
+    -ms-transition-duration:0.96s;
+
+    }
+    
+    .image.first:hover {
+    opacity:0.00;
+    }
+     
+    div.ImgField {
+    display:inline-block;
+    background-position:center center center;
+    background-repeat:no-repeat;
+    margin:0;
+    padding:0;
+   
+    }
+.name{
+  left: 180px; 
+  top: 2500px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Montserrat; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.price{
+  left: 195px; 
+  top: 2550px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Montserrat; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.name2{
+  left: 645px; 
+  top: 2500px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Montserrat; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.price2{
+  left: 680px; 
+  top: 2550px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Montserrat; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.name3{
+  left: 1140px; 
+  top: 2500px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Montserrat; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.price3{
+  left: 1160px; 
+  top: 2550px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Montserrat; 
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.subtitle1{
+  left: 300px; 
+  top: 2800px; 
+  position: absolute; 
+  color: #445A58; 
+  font-size: 96px; 
+  font-family: Jost; 
+  font-weight: 300; 
+  word-wrap: break-word;
+}
+.subtitle2{
+  left: 700px; 
+  top: 2980px; 
+  position: absolute; 
+  color: #445A58;
+  font-size: 80px; 
+  font-family: Jost; 
+  font-weight: 300; 
+  word-wrap: break-word
+}
+.blockinf{
+  width: 1180px; 
+  height: 796px; 
+  left: 400px; 
+  top: 3200px; 
+  position: absolute; 
+  background: #667F7D;
+  box-shadow: 6px 4px 4px #a8adb9;
+}
+.inf{
+  width: 919px; 
+  left: 490px; 
+  top: 3210px; 
+  position: absolute; 
+  color: white; 
+  font-size: 36px; 
+  font-family: Jost; 
+  font-weight: 600; 
+  word-wrap: break-word;
+  text-shadow: 5px 5px 5px #445A58;
+}
+.blockdecoration{
+  width: 1900px; 
+  height: 235px; 
+  left: -8px; 
+  top: 4200px; 
+  position: absolute; 
+  background: #445A58;
+}
+.textdecoration{
+  left: 54px; 
+  top: 4240px; 
+  position: absolute; 
+  color: white; 
+  font-size: 70px; 
+  font-family: Inknut Antiqua; 
+  font-weight: 800; 
+  word-wrap: break-word;
+}
+.textdecoration2{
+  width: 929px; 
+  left: 500px; 
+  top: 4250px; 
+  position: absolute; 
+  color: white; 
+  font-size: 50px; 
+  font-family: Monsieur La Doulaise; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.title2{
+  left: 1350px; 
+  top: 4500px;
+  position: absolute; 
+  color: #445A58; 
+  font-size: 96px; 
+  font-family: Jost; 
+  font-weight: 300; 
+  word-wrap: break-word;
+}
+.blockinf2{
+  width: 1900px; 
+  height: 748px; 
+  left: -8px; 
+  top: 4700px; 
+  position: absolute; 
+  background: #374B49;
+}
+.textinf2{
+  width: 756px; 
+  left: 100px; 
+  top: 4840px; 
+  position: absolute; 
+  text-align: center;
+  color: rgb(255, 255, 255); 
+  font-size: 32px; 
+  font-family: Montserrat; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.photoinf2{
+  width: 419px;
+  height: 534px; 
+  left: 1200px; 
+  top: 4760px; 
+  position: absolute; 
+  border: 3px white solid;
+}
+
+.glow-on-hover {
+  top: 5350px;
+  left: 1270px;
+  width: 278px;
+  height: 70px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 440px;
+  background: none;
+  border: 6px white solid;
+  cursor: pointer;
+  position: absolute;
+  z-index: 0;
+ 
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 440px;
+}
+
+.glow-on-hover:active {
+  color: #ffffff
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: none;
+  left: 0;
+  top: 0;
+  border-radius: 440px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+.title3{
+  left: 41px; 
+  top: 5500px; 
+  position: absolute; 
+  color: #445A58; 
+  font-size: 96px; 
+  font-family: Jost; 
+  font-weight: 300; 
+  word-wrap: break-word;
+}
+.blockcontacts{
+  width: 790px; 
+  height: 664px; 
+  left: 1105px; 
+  top: 5700px; 
+  position: absolute; 
+  background: #667F7D;
+}
+.textcontacts{
+  left: 1149px; 
+  top: 5901px; 
+  position: absolute; 
+  color: white; 
+  font-size: 48px; 
+  font-family: Jost;
+  font-weight: 600; 
+  word-wrap: break-word;
+}
+.textcontacts2{
+  width: 506px; 
+  height: 300px; 
+  left: 1149px; 
+  top: 5980px; 
+  position: absolute;
+  color: white; 
+  font-size: 24px; 
+  font-family: Jost; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.map{
+  width: 790px; 
+  height: 664px; 
+  left: 100px; 
+  top: 5700px; 
+  position: absolute;
+}
