@@ -165,26 +165,19 @@ a{
     background: #667F7D;
     box-shadow: 0px 4px 4px #445A58;
   }
-  .line{
-    width: 300px; 
-    height: 771px; 
-    left: 1592px; 
-    top: 1890px; 
-    position: absolute; 
-    background: #667F7D;
-  }
-  .blockcatalog2{
-    width: 1900px; 
-    height:60px; 
-    left: -8px; 
-    top: 2650px; 
-    position: absolute;
-    background: #667F7D;
-    box-shadow: 0px 4px 4px #445A58;
-  }
+  
+.blockcatalog2{ 
+  width: 1900px; 
+  height:60px; 
+  left: -8px; 
+  top: 2650px; 
+  position: absolute;
+  background: #667F7D;
+  box-shadow: 0px 4px 4px #445A58; 
+}
   .image.first,.image.second,.image.third{
     border:2px solid transparent;
-    margin-left: 70px;
+    margin-left: 160px;
     margin-top: 1950px;
     width: 400px;
     box-shadow: 6px 4px 4px #a8adb9;
@@ -236,7 +229,7 @@ a{
   word-wrap: break-word;
 }
 .name2{
-  left: 645px; 
+  left: 740px; 
   top: 2500px; 
   position: absolute; 
   color: white; 
@@ -246,7 +239,7 @@ a{
   word-wrap: break-word;
 }
 .price2{
-  left: 680px; 
+  left: 780px; 
   top: 2550px; 
   position: absolute; 
   color: white; 
@@ -256,7 +249,7 @@ a{
   word-wrap: break-word;
 }
 .name3{
-  left: 1140px; 
+  left: 1320px; 
   top: 2500px; 
   position: absolute; 
   color: white; 
@@ -266,7 +259,7 @@ a{
   word-wrap: break-word;
 }
 .price3{
-  left: 1160px; 
+  left: 1340px; 
   top: 2550px; 
   position: absolute; 
   color: white; 
